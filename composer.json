@@ -1,0 +1,21 @@
+{
+    "name": "jdrich/bismarck",
+    "description": "A simple extension to Fabien's Pimple to allow for containers to consume other containers.",
+    "homepage": "https://github.com/jdrich/bismarck",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Rich",
+            "email": "jdrich@gmail.com",
+            "homepage": "http://jonathanri.ch"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bismarck\\": "/Bismarck"
+        }
+    }
+}
